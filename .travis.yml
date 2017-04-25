@@ -1,8 +1,7 @@
 sudo: false
 language: ruby
-rvm:
-- 2.3.3
 install: gem install jekyll
+script: jekyll build
 before_deploy:
   pip install --user awscli
 deploy:
