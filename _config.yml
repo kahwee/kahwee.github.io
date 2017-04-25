@@ -6,6 +6,10 @@ title: JavaScript.sg
 tagline: JavaScript everyday
 description: Blogging on my coding journey
 paginate: 5
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll/tagging]
 sass:
     sass_dir: _sass
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
