@@ -1,7 +1,8 @@
 sudo: false
 language: ruby
-install: gem install jekyll
-script: jekyll build
+install: bundle install
+cache: bundler
+script: bundle exec jekyll build
 before_deploy:
   pip install --user awscli
 deploy:
