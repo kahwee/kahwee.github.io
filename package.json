@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/kahwee/kahwee.github.io#readme",
   "devDependencies": {
-    "clean-css": "^3.4.19"
+    "clean-css": "^4.1.3"
   }
 }
